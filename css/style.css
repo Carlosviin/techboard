@@ -1,0 +1,79 @@
+/* Fontes */
+@font-face {
+    font-family: "Unbounded";
+    src: url(../fonts/Unbounded-Bold.ttf);
+    font-weight: 700;
+    format:"truetype";
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Poppins";
+    src: url(../fonts/Poppins-Regular.ttf);
+    font-weight: 400;
+    format:"truetype";
+    font-style: normal;
+    font-display: swap;
+}
+
+/* variaveis */
+:root {
+    --cor-fundo:#0E1014;
+    --cor-texto:#FFFFFF;
+    --cor-destaque:#9747FF;
+    --cor-hover:#8233E8;
+}
+
+/* reset */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* projeto desktop*/
+
+body {
+    background-color: var(--cor-fundo);
+}
+.logo{
+    margin: 75px 0 60px 360px;
+}
+.texto {
+    color: var(--cor-texto);
+    font-size: 24px;
+    font-family: "Poppins";
+}
+.titulo {
+    font-size: 64px;
+    font-family: "Unbounded";
+    text-align: center;
+    margin-bottom: 24px;
+}
+.tituloDestaque{
+    color: var(--cor-destaque);
+}
+
+.textoInformativo {
+    display: block;
+    width: 792px;
+    margin: 0 auto;
+    text-align: center;
+}
+.botaoAcao{
+    display: block;
+    width: 340px;
+    height: 66px;
+    line-height: 66px;
+    text-align: center;
+    text-decoration: none;
+    background-color: var(--cor-destaque);
+    border-radius: 36px;
+    margin: 40px auto;
+}
+.botaoAcao:hover{
+    background-color: var(--cor-hover);
+}
+section img {
+    display: block;
+    margin: 0 auto;
+}
