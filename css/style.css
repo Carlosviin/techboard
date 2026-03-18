@@ -76,4 +76,33 @@ body {
 section img {
     display: block;
     margin: 0 auto;
+    width: 792px;
+    height: 446px;
+}
+
+@media (max-width: 768px) {
+    .textoInformativo{
+        width: 648px;
+    }
+    section img {
+        width: 624px;
+    }
+}
+@media (max-width:375px) {
+    .texto{
+        font-size: 20px;
+    }
+    .titulo {
+        font-size: 40px;
+    }
+    .textoInformativo{
+        width: 341px;
+    }
+    .botaoAcao{
+        width: 251px;
+    }
+    section img{
+        width: 341px;
+        height: 230px;
+    }
 }
