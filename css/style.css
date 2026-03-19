@@ -81,6 +81,9 @@ section img {
 }
 
 @media (max-width: 768px) {
+    .logo{
+        margin: 65px 0 0 60px;
+    }
     .textoInformativo{
         width: 648px;
     }
@@ -89,6 +92,9 @@ section img {
     }
 }
 @media (max-width:375px) {
+    .logo{
+        margin: 32px 0 0 16px;
+    }
     .texto{
         font-size: 20px;
     }
